@@ -1,0 +1,25 @@
+<!--cn.demo.customview123为你在manifest中定义的主包名
+  Eclipse下的格式 xmlns:uview="http://schemas.android.com/apk/res/cn.demo.customview123"
+  AS下的格式
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:uview="http://schemas.android.com/apk/res-auto"
+   	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手指在空白处移动，观察红色小球" />
+
+    <cn.demo.customview123.userview.DrawCircle03
+        android:id="@+id/drawCircle1"
+        android:layout_width="match_parent"
+ 		uview:demoColor="@color/black"
+		uview:demoText="@string/demo_text4" 		    
+        uview:demoCircleR="35dp"
+        android:layout_height="match_parent" />
+</LinearLayout>

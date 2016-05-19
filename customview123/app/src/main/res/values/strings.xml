@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomView123</string>
+     <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_demo_user_view1">DemoUserView1Activity</string>
+    <string name="title_activity_demo_user_view2">DemoUserView2Activity</string>
+    <string name="title_activity_demo_user_view3">DemoUserView3Activity</string>
+    <string name="demo_text1">圆形1</string>
+    <string name="demo_text2">圆形2</string>
+    <string name="demo_text3">圆形3</string>
+    <string name="demo_text4">圆形4</string>
+</resources>
