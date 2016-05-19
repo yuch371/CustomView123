@@ -1,0 +1,7 @@
+# CustomView123
+CustomView123是自定义组件的基本形式OnDraw的教学课件
+
+1.自定义组件DrawCircle01\DrawCircle02\DrawCircle03都继承与View；
+2.DrawCircle01组件,仅仅重写了onDraw功能；
+3.DrawCircle02组件,在DrawCircle01的基础上，添加了默认空间的属性功能；
+4.DrawCircle03组件,在DrawCircle02的基础上，添加了自定义空间的属性功能，以及应该如何读取属性的值；
